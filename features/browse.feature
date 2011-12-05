@@ -18,7 +18,7 @@ Feature: App
     When I browse to "/redirect-me"
     Then I should be on the "/redirected" page
 
-  Scenario: Browser to /api/contests
+  Scenario: Browse to /api/contests
     Given I am an anoynmous user
     When I browse to "/api/contests"
     Then I should be on the "/api/contests" page
