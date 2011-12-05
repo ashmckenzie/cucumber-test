@@ -1,3 +1,10 @@
+Specs to provide coverage for
+-----------------------------
+
+  * AppData.contests
+  * AppData.random_contests
+  * AppData.random_teams
+
 Scenarios to provide coverage for
 ---------------------------------
 
