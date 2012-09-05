@@ -9,11 +9,10 @@ class AppData
   def random_contests count=1
     contests = []
     (1..count).each do |x|
-      status = 'Next'
       start_date = HARD_DATE + (x * 60)
       contests << {
         :id => x,
-        :status => status,
+        :status => 'Next',
         :startDate => start_date,
         :teams => random_teams(2, x)
       }

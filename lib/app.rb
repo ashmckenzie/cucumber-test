@@ -19,6 +19,7 @@ EOS
   get '/form' do
     erb <<EOS
 <form action="/form-output" method="post">
+  <label form="name">Your name ?</label>
   <input type="input" name="name" />
   <input type="submit" name="submit" value="ok" />
 </form>
